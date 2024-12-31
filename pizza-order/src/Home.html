@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="./workintech.svg" />
+    <link rel="stylesheet" href="./style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pizza Sipariş Formu 🍕</title>
+    <style>
+      body {
+        margin: 0;
+        font-family: 'Roboto Condensed', sans-serif;
+      }
+
+      img.header-image {
+        object-fit: cover;
+        height: 610px;
+        width: 100%;
+      }
+
+      .image-text-container {
+        position: relative;
+      }
+
+      img.header-image-text {
+        position: absolute;
+        top: 17%;
+        left: 42%;
+        width: 200px;
+        margin-top: -30px;
+        font-weight: bold;
+      }
+
+      .text-overlay {
+        position: absolute;
+        top: 15%;
+        display: flex;
+        left: 35%;
+        justify-content: center;
+        align-content: flex-start;
+        align-items: center;
+        flex-direction: column;
+      }
+
+      .text-overlay h1 {
+        font-size: 40px; /* Yazı boyutu */
+        font-weight: 100;
+        letter-spacing: 1.5px;
+        color: #fff;
+        text-align: center;
+        line-height: 50px;
+      }
+
+      .btn {
+        background: #fdc913;
+        border-radius: 50px;
+        border: none;
+        font-size: 10px;
+        font-family: 'Barlow', sans-serif;
+        font-weight: 400;
+        padding: 10px 40px;
+        width: 120px;
+        text-align: center;
+        cursor: pointer;
+        transition: background-color 0.3s;
+      }
+
+      .btn:hover {
+        background: #fbbd00;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id="app">
+      <div>
+        <div class="image-text-container">
+          <img
+            class="header-image-text"
+            src="https://raw.githubusercontent.com/gizem-guneren/pizza2/5aa65359b38f2359e4ccb649473323fc9cdaeb07/Assets/Iteration-1-assets/logo.svg"
+            class="logo"
+            alt="Pizza Logo"
+          />
+          <img
+            class="header-image"
+            src="https://github.com/gizem-guneren/pizza2/blob/main/Assets/Iteration-1-assets/home-banner.png?raw=true"
+            alt="Pizza Banner"
+          />
+          <div class="text-overlay">
+            <h1 class="slogan">
+              KOD ACIKTIRIR <br />
+              PİZZA, DOYURUR
+            </h1>
+            <button class="btn">ACIKTIM</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
